@@ -1,0 +1,4 @@
+
+ module_checkout_payment_banner_tile = Do you want to display an advertising  banner ?
+ module_checkout_payment_banner_description = Display an advertising  banner
+

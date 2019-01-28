@@ -1,0 +1,29 @@
+{
+  "title":		"modules_checkout_payment_banner",
+  "type":        "modules_checkout_payment",
+  "vendor":		 "modules_checkout_payment",
+  "is_free":   "Yes",
+  "is_core":   "no",
+  "website_link_to_sell" : "",
+  "version":		1.0,
+  "req_core_version":	3.0,
+  "license":		"GPL 2 - MIT",
+  "tag":		    "template, checkout, confirmation, banner",
+  "install":            "sources/template/Default/",
+  "module_directory":   "modules_checkout_payment",
+  "apps_name":          "",
+  "type_module":        "template",
+  "dependance":         "",
+  "description":        "Allow to display a banner in the checkout payment page",
+  "image":              "",
+
+  "authors": [
+    {
+      "name":		    "ClicShopping Team",
+      "company":	    "Innov-concept",
+      "email":	        "",
+      "website":	    "http://www.clicshopping.org",
+      "Community":	    "http://www.clicshopping.org"
+    }
+  ]
+}
