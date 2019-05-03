@@ -54,7 +54,7 @@
         $payment_process = '  <!-- processing_payment_information -->'. "\n";
 
         ob_start();
-        require($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/checkout_payment_banner'));
+        require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/checkout_payment_banner'));
 
         $payment_process .= ob_get_clean();
 
