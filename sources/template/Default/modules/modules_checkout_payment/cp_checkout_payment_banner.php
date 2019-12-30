@@ -77,10 +77,10 @@
       $CLICSHOPPING_Db = Registry::get('Db');
 
       $CLICSHOPPING_Db->save('configuration', [
-          'configuration_title' => 'Souhaitez-vous activer ce module ?',
+          'configuration_title' => 'Do you want to enable this module ?',
           'configuration_key' => 'MODULE_CHECKOUT_PAYMENT_BANNER_STATUS',
           'configuration_value' => 'True',
-          'configuration_description' => 'Souhaitez vous activer ce module à votre boutique ?',
+          'configuration_description' => 'Do you want to enable this module in your shop ?',
           'configuration_group_id' => '6',
           'sort_order' => '1',
           'set_function' => 'clic_cfg_set_boolean_value(array(\'True\', \'False\'))',
@@ -89,10 +89,10 @@
       );
 
       $CLICSHOPPING_Db->save('configuration', [
-          'configuration_title' => 'Veuillez indiquer le groupe d\'appartenance de la banniere',
+          'configuration_title' => 'Please indicate the group where the banner belongs',
           'configuration_key' => 'MODULE_CHECKOUT_PAYMENT_BANNER_BANNER_GROUP',
           'configuration_value' => SITE_THEMA.'_checkout_payment',
-          'configuration_description' => 'Veuillez indiquer le groupe d\'appartenance de la bannière<br /><br /><strong>Note :</strong><br /><i>Le groupe sera à indiquer lors de la création de la bannière dans la section Marketing / Gestion des bannières</i>',
+          'configuration_description' => 'Please indicate the group where the banner belongs <br /> <br /> <strong> Note: </strong> <br /> <i> The group will be indicated when creating the banner in the Marketing section / Banner management </i>',
           'configuration_group_id' => '6',
           'sort_order' => '3',
           'set_function' => '',
@@ -101,10 +101,10 @@
       );
 
       $CLICSHOPPING_Db->save('configuration', [
-          'configuration_title' => 'Veuillez selectionner la largeur de l\'affichage?',
+          'configuration_title' => 'Please select the width of the display?',
           'configuration_key' => 'MODULE_CHECKOUT_PAYMENT_BANNER_CONTENT_WIDTH',
           'configuration_value' => '12',
-          'configuration_description' => 'Veuillez indiquer un nombre compris entre 1 et 12',
+          'configuration_description' => 'Please enter a number between 1 and 12',
           'configuration_group_id' => '6',
           'sort_order' => '1',
           'set_function' => 'clic_cfg_set_content_module_width_pull_down',
@@ -113,10 +113,10 @@
       );
 
       $CLICSHOPPING_Db->save('configuration', [
-          'configuration_title' => 'Ordre de tri d\'affichage',
+          'configuration_title' => 'Sort order',
           'configuration_key' => 'MODULE_CHECKOUT_PAYMENT_BANNER_SORT_ORDER',
           'configuration_value' => '120',
-          'configuration_description' => 'Ordre de tri pour l\'affichage (Le plus petit nombre est montré en premier)',
+          'configuration_description' => 'Sort order of display. Lowest is displayed first. The sort order must be different on every module',
           'configuration_group_id' => '6',
           'sort_order' => '4',
           'set_function' => '',
