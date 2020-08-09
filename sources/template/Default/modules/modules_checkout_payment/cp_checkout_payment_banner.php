@@ -134,7 +134,7 @@
     }
 
     public function keys() {
-      return array (
+      return array(
         'MODULE_CHECKOUT_PAYMENT_BANNER_STATUS',
         'MODULE_CHECKOUT_PAYMENT_BANNER_BANNER_GROUP',
         'MODULE_CHECKOUT_PAYMENT_BANNER_CONTENT_WIDTH',
