@@ -46,13 +46,13 @@
         $content_width = (int)MODULE_CHECKOUT_PAYMENT_BANNER_CONTENT_WIDTH;
         $payment_process_order_banner = '';
         
-        if ($CLICSHOPPING_Service->isStarted('Banner') ) {
+        if ($CLICSHOPPING_Service->isStarted('Banner')) {
           if ($banner = $CLICSHOPPING_Banner->bannerExists('dynamic',  MODULE_CHECKOUT_PAYMENT_BANNER_BANNER_GROUP)) {
             $payment_process_order_banner = $CLICSHOPPING_Banner->displayBanner('static', $banner) . '<br /><br />';
           }
         }
 
-        $payment_process = '  <!-- processing_payment_information -->'. "\n";
+        $payment_process = '  <!-- processing_payment_information -->' . "\n";
 
         ob_start();
         require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/checkout_payment_banner'));
